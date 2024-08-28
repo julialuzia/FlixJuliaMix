@@ -1,0 +1,130 @@
+body {
+    color:whitesmoke;
+    background-color: rgb(55, 2, 43);
+    margin: 0px;
+    font-family: "Anek Malayalam", sans-serif;
+    margin-bottom: 100px;
+    }
+    
+    header {
+    border-bottom: solid 2px white;
+    padding: 20px;
+    font-size: 33px;
+    color: rgb(216, 171, 223);
+    font-family: "Squada One", sans-serif;
+    }
+    
+    .chamada {
+        background: rgb(196, 172, 204);
+        padding-bottom: 80px;
+        padding-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .chamada-texto {
+        margin-right: 5%;
+    }
+
+    h1 {
+    font-size: 30px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+    h3 {
+        font-size: 23px;
+    }
+    h4 {
+        font-size: 23px;
+    }
+    h5 {
+        font-size: 23px
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+
+    .categoria-filmes{
+    display: flex;
+    overflow-x: auto;
+    gap: 15px
+    }
+
+    .categoria-livros{
+        display: flex;
+        overflow-x: auto;
+        gap:15px;
+    }
+
+    .categoria-musicasbr{
+        display: flex;
+        overflow-x: auto;
+        gap: 15px
+    }
+
+    .categoria-musicasinter{
+        display: flex;
+        overflow-x: auto;
+        gap: 15px;
+    }
+
+    .categoria{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 50px;
+    }
+
+    .categoria-filmes img {
+        opacity: 0.5;
+            height: 200px;
+    }
+        .categoria-filmes img:hover {
+            opacity: 1.0;
+            border: 2px solid navy;
+        }
+
+    .categoria-livros img {
+        opacity: 0.5;
+        height: 200px;
+    }
+    .categoria-livros img:hover {
+        opacity: 1.0;
+        border: 2px solid navy;
+
+    }
+
+    .categoria-musicasbr img {
+        opacity: 0.5;
+        height: 200px;
+    }
+    .categoria-musicasbr img:hover {
+        opacity: 1.0;
+        border: 2px solid navy;
+    }
+
+    .categoria-musicasinter img {
+        opacity: 0.5;
+        height: 200px;
+    }
+    .categoria-musicasinter img:hover{
+        opacity: 1.0;
+        border: 2px solid navy;
+    }
+
+
+    .categoria h2 {
+        color: rgb(216, 171, 223)
+    }
+    .categoria h3 {
+        color: rgb(216, 171, 223)
+    }
+    .categoria h4 {
+        color: rgb(216, 171, 223)
+    }
+    .categoria h5 {
+        color: rgb(216, 171, 223)
+    }
